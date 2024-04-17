@@ -16,6 +16,7 @@ export class CountriesService {
     }
 
     constructor(private http: HttpClient) {
+        // Como esto no es un componente de angular podemos ponerlo en el constructor
         this.loadFromLocalStorage();
     }
 
